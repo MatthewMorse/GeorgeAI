@@ -8,3 +8,4 @@ public class Main {
 		starter.setVisible(true);
 	}
 }
+a
