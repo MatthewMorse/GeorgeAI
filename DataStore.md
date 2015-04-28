@@ -1,7 +1,12 @@
 package mainPackage;
 
 public class DataStore {
+	public static int firstResponseActivated = 0;
 	public DataStore() {	
-	Starter.a++;
+	
+	if (firstResponseActivated == 1) {
+		Starter.firstResponseOveruse++;
+		firstResponseActivated--;
+	}
 }
 }
